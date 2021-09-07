@@ -1,0 +1,101 @@
+@font-face {
+   font-family:bbfont;
+   src:url(E:\Nessecary_Things/Helvetica-400.woff);	
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.all {
+    width: 390px;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 12px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+    padding-left: 6px;
+    border: 3px solid #ddd;
+    border-radius: 9px;
+    background-color: skyblue;
+}
+.head {
+    color: #ff6363;
+    border: 3px solid #ddd;
+    border-radius: 21px;
+    background-color: #e9cfad;
+    text-align: center;
+	font-family:bbfont;
+    margin-top: 6px;
+    margin-right: 72px;
+    margin-bottom: -6px;
+    margin-left: 72px;
+    padding-top: 6px;
+    padding-right: 3px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+}
+.calc {
+	margin: auto;
+	max-width: 370px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border: 3px solid #ddd;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    background-color: #ffc093;
+}
+.calc_head input {
+    width: 345px;
+    height: 105px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: right;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 0px 6px;
+    letter-spacing: 3px;
+}
+.btn {
+    width: 90px;
+    height: 72px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+	transition: 0.3s;
+}
+.btn:hover {
+    background-color: gray;
+}
+.clear:hover {
+	background-color: red;
+}
+.btn_style {
+    color: red;
+    background-color: #3333be;
+}
+.btn_style:hover {
+    background-color: #ffff24;
+}
+.delete:hover {
+    background-color: tomato;
+}
+.plus {
+	height:145px;
+}
+.equal {
+    color: black;
+    background-color: white;
+}
+.equal:hover {
+	color: white;
+    background-color: green;
+}
